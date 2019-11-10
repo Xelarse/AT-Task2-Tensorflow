@@ -2,6 +2,15 @@ import tensorflow as tf
 import numpy as np
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten, Conv2D, MaxPooling2D
+from tensorflow.keras.callbacks import TensorBoard
+import time
+import os
+
+NAME = "Cats-vs-dogs-cnn-64x2-{}".format(int(time.time()))
+
+pathToScript = os.getcwd()
+
+tensorboard = TensorBoard(log_dir=os.path.join(pathToScript, "logs\\{}".format(NAME)))
 
 # Load in data from previously made dataset
 X = np.load("CatDogFeatures.npy")
@@ -33,13 +42,13 @@ model.add(MaxPooling2D(pool_size=(2, 2)))
 
 model.add(Flatten())
 model.add(Dense(64))
-
+model.add(Activation("relu"))
 
 #### And the output layer
 
 model.add(Dense(1))
 model.add(Activation("sigmoid"))
 
-#### Compile and test fitness
+#### Compile and test fitmen
 model.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"])
-model.fit(X, y, batch_size=32, epochs=10, validation_split=0.1)
+model.fit(X, y, batch_size=32, epochs=5, validation_split=0.1, callbacks=[tensorboard])
