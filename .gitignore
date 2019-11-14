@@ -103,5 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# Exclude datasets from git
+# Exclude datasets and logs from git
 Dataset/
+Scripts/logs

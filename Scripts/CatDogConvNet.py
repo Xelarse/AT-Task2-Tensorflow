@@ -6,11 +6,13 @@ from tensorflow.keras.callbacks import TensorBoard
 import time
 import os
 
-NAME = "Cats-vs-dogs-cnn-64x2-{}".format(int(time.time()))
+
+export_model = True
+dense_layers = [0]
+layer_sizes = [64]
+conv_layers = [3]
 
 pathToScript = os.getcwd()
-
-tensorboard = TensorBoard(log_dir=os.path.join(pathToScript, "logs\\{}".format(NAME)))
 
 # Load in data from previously made dataset
 X = np.load("CatDogFeatures.npy")
@@ -19,36 +21,41 @@ y = np.load("CatDogLabels.npy")
 # Time to normalise the data! since pixel data is from 0 - 255 divide by 255
 X = X/255.0
 
-model = Sequential()
+# Make multiple models with each of the variations above
 
-#### This is the first sort of layer of neurons in the network, these will then feed into another layer then be processed to output
+for dense_layer in dense_layers:
+    for layer_size in layer_sizes:
+        for conv_layer in conv_layers:
+            NAME = f"CatAndDog-{conv_layer}-conv-{layer_size}-nodes-{dense_layer}-dense-{int(time.time())}"
+            tensorboard = TensorBoard(log_dir=os.path.join(pathToScript, "logs\\{}".format(NAME)))
+            print(NAME)
 
-# Add the first Conv layer, with a 3x3 window and the shape being based of X but skipping the first element as previously it was set to -1
-model.add(Conv2D(64, (3, 3), input_shape=X.shape[1:]))
+            model = Sequential()
 
-# Next is the activation layer using Rectified linear
-model.add(Activation("relu"))
+            model.add(Conv2D(layer_size, (3, 3), input_shape=X.shape[1:]))
+            model.add(Activation("relu"))
+            model.add(MaxPooling2D(pool_size=(2, 2)))
 
-# Next is the pooling layer
-model.add(MaxPooling2D(pool_size=(2, 2)))
+            # First conv layer must have input shape but every one after is the same
+            for l in range(conv_layer-1):
+                model.add(Conv2D(layer_size, (3, 3)))
+                model.add(Activation("relu"))
+                model.add(MaxPooling2D(pool_size=(2, 2)))
 
-#### Second layer taking the previous neurons output as input
+            model.add(Flatten())
+            for l in range(dense_layer):
+                model.add(Dense(layer_size))
+                model.add(Activation("relu"))
+                model.add(Dropout(0.2))
 
-model.add(Conv2D(64, (3, 3)))
-model.add(Activation("relu"))
-model.add(MaxPooling2D(pool_size=(2, 2)))
+            model.add(Dense(1))
+            model.add(Activation("sigmoid"))
 
-#### Finally before output flatten data to 1D and Dense it
+            #### Compile and test fitmen
+            model.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"])
+            model.fit(X, y, batch_size=32, epochs=10, validation_split=0.1, callbacks=[tensorboard])
 
-model.add(Flatten())
-model.add(Dense(64))
-model.add(Activation("relu"))
+            if(export_model):
+                model.save(f"models/CatAndDog-{conv_layer}-conv-{layer_size}-nodes-{dense_layer}-dense.h5")
 
-#### And the output layer
 
-model.add(Dense(1))
-model.add(Activation("sigmoid"))
-
-#### Compile and test fitmen
-model.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"])
-model.fit(X, y, batch_size=32, epochs=5, validation_split=0.1, callbacks=[tensorboard])
