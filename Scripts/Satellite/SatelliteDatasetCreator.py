@@ -34,8 +34,8 @@ for features, label in training_data:
     X.append(features)
     y.append(label)
 
-# X needs to be converted to np array for Keras to use, ensure IMG_SIZE matches img res
-X = np.array(X).reshape(-1, IMG_SIZE, IMG_SIZE, 1)
+# X needs to be converted to np array for Keras to use, ensure IMG_SIZE matches img res, 3 CAUSE OF THE RGB
+X = np.array(X).reshape(-1, IMG_SIZE, IMG_SIZE, 3)
 
 features_name = "SatelliteFeatures.npy"
 labels_name = "SatelliteLabels.npy"

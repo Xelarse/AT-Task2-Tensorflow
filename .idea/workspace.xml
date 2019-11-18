@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2d9293f-967d-4b2c-a422-fd868de12ded" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/ExportedTrainingData/SatelliteFeatures.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/ExportedTrainingData/SatelliteLabels.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/SatelliteConvNet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/SatelliteDatasetCreator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/Satellite/ExportedTrainingData/SatelliteFeatures.npy" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/Satellite/ExportedTrainingData/SatelliteFeatures.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/Satellite/ExportedTrainingData/SatelliteLabels.npy" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/Satellite/ExportedTrainingData/SatelliteLabels.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/SatelliteConvNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/SatelliteConvNet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/SatelliteDatasetCreator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/SatelliteDatasetCreator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SatelliteDatasetCreator">
+  <component name="RunManager" selected="Python.SatelliteConvNet">
     <configuration name="CatDogConvNetTester" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AT-Task2-Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,8 +179,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SatelliteDatasetCreator" />
         <item itemvalue="Python.SatelliteConvNet" />
+        <item itemvalue="Python.SatelliteDatasetCreator" />
         <item itemvalue="Python.ImageSlicer" />
         <item itemvalue="Python.MapQuestImageFetcher" />
         <item itemvalue="Python.CatDogConvNetTester" />
@@ -204,7 +204,7 @@
       <workItem from="1573737579256" duration="11556000" />
       <workItem from="1574073933487" duration="146000" />
       <workItem from="1574074094629" duration="14145000" />
-      <workItem from="1574101386509" duration="5928000" />
+      <workItem from="1574101386509" duration="7518000" />
     </task>
     <servers />
   </component>
@@ -228,7 +228,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AT_Task2_Tensorflow$SatelliteDatasetCreator.coverage" NAME="SatelliteDatasetCreator Coverage Results" MODIFIED="1574106934959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Satellite" />
+    <SUITE FILE_PATH="coverage/AT_Task2_Tensorflow$SatelliteConvNet.coverage" NAME="SatelliteConvNet Coverage Results" MODIFIED="1574108652174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Satellite" />
+    <SUITE FILE_PATH="coverage/AT_Task2_Tensorflow$SatelliteDatasetCreator.coverage" NAME="SatelliteDatasetCreator Coverage Results" MODIFIED="1574108592683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Satellite" />
     <SUITE FILE_PATH="coverage/AT_Task2_TensorFlow$EnvironmentTest__1_.coverage" NAME="EnvironmentTest (1) Coverage Results" MODIFIED="1573395079747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts" />
     <SUITE FILE_PATH="coverage/AT_Task2_Tensorflow$MapQuestImageFetcher.coverage" NAME="MapQuestImageFetcher Coverage Results" MODIFIED="1574076843945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Satellite" />
     <SUITE FILE_PATH="coverage/AT_Task2_Tensorflow$CatDogConvNetTester.coverage" NAME="CatDogConvNetTester Coverage Results" MODIFIED="1573747383144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts" />

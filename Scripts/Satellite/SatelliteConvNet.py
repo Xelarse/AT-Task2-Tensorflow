@@ -11,7 +11,7 @@ export_model = False
 dense_layers = [0, 1, 2]
 layer_sizes = [32, 64, 128, 256]
 conv_layers = [1, 2, 3]
-model_runs = 10
+model_runs = 5
 
 pathToScript = os.getcwd()
 
@@ -49,7 +49,7 @@ for dense_layer in dense_layers:
                 model.add(Activation("relu"))
                 model.add(Dropout(0.2))
 
-            model.add(Dense(1))
+            model.add(Dense(8))
             model.add(Activation("sigmoid"))
 
             #### Compile and fit
