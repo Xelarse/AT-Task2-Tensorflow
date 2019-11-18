@@ -53,8 +53,8 @@ for dense_layer in dense_layers:
             model.add(Activation("sigmoid"))
 
             #### Compile and fit
-            model.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"])
-            model.fit(X, y, batch_size=32, epochs=model_runs, validation_split=0.1, callbacks=[tensorboard])
+            model.compile(loss="sparse_categorical_crossentropy", optimizer="adam", metrics=["accuracy"])
+            model.fit(X, y, batch_size=32, epochs=model_runs, validation_split=0.1, callbacks=[tensorboard], shuffle=True)
 
             if(export_model):
                 model.save(f"models/Satellite-{conv_layer}-conv-{layer_size}-nodes-{dense_layer}-dense.h5")
