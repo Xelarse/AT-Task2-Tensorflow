@@ -7,10 +7,10 @@ import time
 import os
 
 
-export_model = False
-dense_layers = [0, 1, 2]
-layer_sizes = [32, 64, 128, 256]
-conv_layers = [1, 2, 3]
+export_model = True
+dense_layers = [1]
+layer_sizes = [128]
+conv_layers = [3]
 model_runs = 20
 
 pathToScript = os.getcwd()

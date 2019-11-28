@@ -13,13 +13,13 @@ import time
 # New york long = -74.5 to -73.6, lat 40.58 to 41
 # Dubai long 54.9 to 55.8, lat 24.87 to 25.52
 
-LAT = [24.9, 25.1]
-LONG = [55.1, 55.3]
-MAP_SIZE = 900      # width and height
+LONG = [-4.6, 1.2]
+LAT = [50.6, 54.6]
+MAP_SIZE = 200      # width and height
 MAP_TYPE = "sat"  # Map = map, Satellite = sat, Hybrid = hyb
 IMG_TYPE = "png"    # jpg or png
 ZOOM_LEVEL = 17     # 1 - 18
-IMG_AMOUNT = 30
+IMG_AMOUNT = 10
 
 
 def fetch_random_image_from_mapquest():

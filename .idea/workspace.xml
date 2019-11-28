@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2d9293f-967d-4b2c-a422-fd868de12ded" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/Done/1574943436.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/Done/1574943450.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/Done/1574943455.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/Done/1574943495.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/Done/1574946817.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/Done/1574946819.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/Done/1574946843.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/Done/1574946995.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/Done/1574947033.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/Done/1574949946.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/Done/1574950305.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/Done/1574950308.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/ImgToJson.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-3-conv-128-nodes-1-dense.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-3-conv-32-nodes-1-dense.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-3-conv-64-nodes-1-dense.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-3-conv-64-nodes-2-dense-CurrentBest.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/ImageSlicer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/ImageSlicer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/ImgToJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/ImgToJson.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Satellite/MapQuestImageFetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/MapQuestImageFetcher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/SatelliteConvNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/SatelliteConvNet.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,29 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SatelliteDatasetCreator">
-    <configuration name="CatDogConvNetTester" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AT-Task2-Tensorflow" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Alex\Documents\ProjectsAndWork\PyCharm\AT-Task2-Tensorflow\Scripts\CatsAndDogs\CatDogConvNetTester.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ImgToJson">
     <configuration name="ImageSlicer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AT-Task2-Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,6 +71,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/Satellite/ImageSlicer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ImgToJson" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AT-Task2-Tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Satellite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/Satellite/ImgToJson.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,9 +121,6 @@
       <module name="AT-Task2-Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Satellite" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -193,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SatelliteDatasetCreator" />
-        <item itemvalue="Python.ImageSlicer" />
+        <item itemvalue="Python.ImgToJson" />
         <item itemvalue="Python.MapQuestImageFetcher" />
         <item itemvalue="Python.SatelliteConvNet" />
-        <item itemvalue="Python.CatDogConvNetTester" />
+        <item itemvalue="Python.SatelliteDatasetCreator" />
+        <item itemvalue="Python.ImageSlicer" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +207,7 @@
       <workItem from="1574101386509" duration="10584000" />
       <workItem from="1574112955218" duration="978000" />
       <workItem from="1574367591686" duration="1557000" />
-      <workItem from="1574941494606" duration="5248000" />
+      <workItem from="1574941494606" duration="12376000" />
     </task>
     <servers />
   </component>
@@ -248,6 +234,7 @@
     <SUITE FILE_PATH="coverage/AT_Task2_Tensorflow$SatelliteConvNet.coverage" NAME="SatelliteConvNet Coverage Results" MODIFIED="1574108652174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Satellite" />
     <SUITE FILE_PATH="coverage/AT_Task2_Tensorflow$SatelliteDatasetCreator.coverage" NAME="SatelliteDatasetCreator Coverage Results" MODIFIED="1574108592683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Satellite" />
     <SUITE FILE_PATH="coverage/AT_Task2_TensorFlow$EnvironmentTest__1_.coverage" NAME="EnvironmentTest (1) Coverage Results" MODIFIED="1573395079747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts" />
+    <SUITE FILE_PATH="coverage/AT_Task2_Tensorflow$ImgToJson.coverage" NAME="ImgToJson Coverage Results" MODIFIED="1574957290866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Satellite" />
     <SUITE FILE_PATH="coverage/AT_Task2_Tensorflow$MapQuestImageFetcher.coverage" NAME="MapQuestImageFetcher Coverage Results" MODIFIED="1574076843945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Satellite" />
     <SUITE FILE_PATH="coverage/AT_Task2_Tensorflow$CatDogConvNetTester.coverage" NAME="CatDogConvNetTester Coverage Results" MODIFIED="1573747383144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts" />
     <SUITE FILE_PATH="coverage/TensorflowTest$EnvironmentTest.coverage" NAME="EnvironmentTest Coverage Results" MODIFIED="1573393738589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts" />
