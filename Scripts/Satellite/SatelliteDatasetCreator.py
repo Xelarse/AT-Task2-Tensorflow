@@ -8,6 +8,7 @@ DATADIR = "D:\\Alex\\Documents\\ProjectsAndWork\\PyCharm\\AT-Task2-Tensorflow\\D
 EXPORTDIR = "D:\\Alex\\Documents\\ProjectsAndWork\\PyCharm\\AT-Task2-Tensorflow\\Dataset\\Satellite\\ExportedTrainingData"
 CATEGORIES = ["City Building", "Dense Forest", "Grass", "Road", "Sand", "Sparse Forest", "Village Building", "Water"]
 IMG_SIZE = 50
+MAX_PER_CAT = 500
 
 training_data = []
 
@@ -15,11 +16,15 @@ def create_training_data():
     for cat in CATEGORIES:
         path = os.path.join(DATADIR, cat)
         class_num = CATEGORIES.index(cat)
+        counter = 0
         for img in os.listdir(path):
+            if counter == MAX_PER_CAT:
+                break
             try:
                 img_array = cv2.imread(os.path.join(path, img), cv2.IMREAD_COLOR)
                 training_data.append([img_array, class_num])
-                print(f"Processing: {os.path.join(path, img)} in Category: {cat}")
+                counter += 1
+                print(f"NUMBER {counter}:  Processing: {os.path.join(path, img)} in Category: {cat}")
             except Exception as e:
                 pass
 

@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2d9293f-967d-4b2c-a422-fd868de12ded" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-3-conv-128-nodes-1-dense.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-3-conv-32-nodes-1-dense.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-3-conv-64-nodes-1-dense.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-3-conv-64-nodes-2-dense-CurrentBest.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-3-conv-64-nodes-0-dense-10-epochs.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-3-conv-64-nodes-1-dense-10-epochs.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-3-conv-64-nodes-2-dense-10-epochs.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/Satellite/ExportedTrainingData/SatelliteFeatures.npy" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/Satellite/ExportedTrainingData/SatelliteFeatures.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/Satellite/ExportedTrainingData/SatelliteLabels.npy" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/Satellite/ExportedTrainingData/SatelliteLabels.npy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Satellite/ImgToJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/ImgToJson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/MapQuestImageFetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/MapQuestImageFetcher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Satellite/SatelliteConvNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/SatelliteConvNet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/SatelliteDatasetCreator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/SatelliteDatasetCreator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-3-conv-128-nodes-1-dense.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-3-conv-32-nodes-1-dense.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-3-conv-64-nodes-1-dense.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-3-conv-64-nodes-2-dense-CurrentBest.h5" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,9 +185,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.ImgToJson" />
-        <item itemvalue="Python.MapQuestImageFetcher" />
         <item itemvalue="Python.SatelliteConvNet" />
         <item itemvalue="Python.SatelliteDatasetCreator" />
+        <item itemvalue="Python.MapQuestImageFetcher" />
         <item itemvalue="Python.ImageSlicer" />
       </list>
     </recent_temporary>
@@ -207,7 +212,7 @@
       <workItem from="1574101386509" duration="10584000" />
       <workItem from="1574112955218" duration="978000" />
       <workItem from="1574367591686" duration="1557000" />
-      <workItem from="1574941494606" duration="12376000" />
+      <workItem from="1574941494606" duration="16532000" />
     </task>
     <servers />
   </component>

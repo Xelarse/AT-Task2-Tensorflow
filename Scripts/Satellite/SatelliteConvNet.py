@@ -8,10 +8,10 @@ import os
 
 
 export_model = True
-dense_layers = [1]
-layer_sizes = [128]
+dense_layers = [0, 1, 2]
+layer_sizes = [64]
 conv_layers = [3]
-model_runs = 20
+model_runs = 10
 
 pathToScript = os.getcwd()
 
@@ -42,21 +42,22 @@ for dense_layer in dense_layers:
                 model.add(Conv2D(layer_size, (3, 3)))
                 model.add(Activation("relu"))
                 model.add(MaxPooling2D(pool_size=(2, 2)))
+                model.add(Dropout(0.25))
 
             model.add(Flatten())
             for l in range(dense_layer):
-                model.add(Dense(layer_size))
+                model.add(Dense(256))
                 model.add(Activation("relu"))
-                model.add(Dropout(0.2))
+                model.add(Dropout(0.5))
 
             model.add(Dense(8))
-            model.add(Activation("sigmoid"))
+            model.add(Activation("softmax"))
 
             #### Compile and fit
             model.compile(loss="sparse_categorical_crossentropy", optimizer="adam", metrics=["accuracy"])
-            model.fit(X, y, batch_size=32, epochs=model_runs, validation_split=0.1, callbacks=[tensorboard], shuffle=True)
+            model.fit(X, y, batch_size=32, epochs=model_runs, validation_split=0.3, callbacks=[tensorboard], shuffle=True)
 
             if(export_model):
-                model.save(f"models/Satellite-{conv_layer}-conv-{layer_size}-nodes-{dense_layer}-dense.h5")
+                model.save(f"models/Satellite-{conv_layer}-conv-{layer_size}-nodes-{dense_layer}-dense-{model_runs}-epochs.h5")
 
 
