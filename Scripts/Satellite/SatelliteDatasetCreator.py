@@ -8,7 +8,7 @@ DATADIR = "D:\\Alex\\Documents\\ProjectsAndWork\\PyCharm\\AT-Task2-Tensorflow\\D
 EXPORTDIR = "D:\\Alex\\Documents\\ProjectsAndWork\\PyCharm\\AT-Task2-Tensorflow\\Dataset\\Satellite\\ExportedTrainingData"
 CATEGORIES = ["City Building", "Dense Forest", "Grass", "Road", "Sand", "Sparse Forest", "Village Building", "Water"]
 IMG_SIZE = 50
-MAX_PER_CAT = 500
+MAX_PER_CAT = 600
 
 training_data = []
 

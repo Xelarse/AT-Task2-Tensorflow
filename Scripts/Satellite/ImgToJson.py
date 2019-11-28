@@ -8,6 +8,7 @@ import math
 import matplotlib.pyplot as plt
 import time
 import os
+import json
 
 CATEGORIES = ["City Building", "Dense Forest", "Grass", "Road", "Sand", "Sparse Forest", "Village Building", "Water"]
 IMG_SIZE = 50
@@ -15,8 +16,8 @@ IMG_SIZE = 50
 
 # First take an image from the specified file path and a model to use for prediction
 
-img_path =  "D:\\Alex\\Documents\\ProjectsAndWork\\PyCharm\\AT-Task2-Tensorflow\\Dataset\\Satellite\\RawImages\\1574957771.png" # input("Please enter file path to Img: ")
-model_path = "D:\\Alex\\Documents\\ProjectsAndWork\\PyCharm\\AT-Task2-Tensorflow\\Scripts\\Satellite\\models\\Satellite-3-conv-64-nodes-0-dense-10-epochs.h5" #input("Please enter file path to Model: ")
+img_path = "D:\\Alex\\Documents\\ProjectsAndWork\\PyCharm\\AT-Task2-Tensorflow\\Dataset\\Satellite\\RawImages\\1574957771.png" # input("Please enter file path to Img: ")
+model_path = "D:\\Alex\\Documents\\ProjectsAndWork\\PyCharm\\AT-Task2-Tensorflow\\Scripts\\Satellite\\models\\Satellite-2-conv-128-nodes-1-dense-20-epochs.h5" #input("Please enter file path to Model: ")
 
 full_img = cv2.imread(img_path, cv2.IMREAD_COLOR)
 model = tf.keras.models.load_model(model_path)
@@ -51,7 +52,7 @@ for y in range(y_tiles):
         obj["Type"] = predict_text
         json_array.append(obj)
 
+# Output json based on the array
 print(json_array)
-
-
-# Loop over resultant array and export to json
+output_name = "JSONS/" + os.path.basename(img_path) + "-jsonFile.txt"
+json.dump(json_array, open(output_name, "w"))
