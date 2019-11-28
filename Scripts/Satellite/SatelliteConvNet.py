@@ -11,7 +11,7 @@ export_model = False
 dense_layers = [0, 1, 2]
 layer_sizes = [32, 64, 128, 256]
 conv_layers = [1, 2, 3]
-model_runs = 5
+model_runs = 20
 
 pathToScript = os.getcwd()
 
@@ -27,7 +27,7 @@ X = X/255.0
 for dense_layer in dense_layers:
     for layer_size in layer_sizes:
         for conv_layer in conv_layers:
-            NAME = f"Satellite-{conv_layer}-conv-{layer_size}-nodes-{dense_layer}-dense-{int(time.time())}"
+            NAME = f"Satellite-{conv_layer}-conv-{layer_size}-nodes-{dense_layer}-dense-{model_runs}-Epochs-{int(time.time())}"
             tensorboard = TensorBoard(log_dir=os.path.join(pathToScript, "logs\\{}".format(NAME)))
             print(NAME)
 

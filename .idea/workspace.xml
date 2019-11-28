@@ -2,116 +2,236 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2d9293f-967d-4b2c-a422-fd868de12ded" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-0-dense-1574109284/events.out.tfevents.1574109285.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-0-dense-1574109284/events.out.tfevents.1574109287.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-0-dense-1574109284/plugins/profile/2019-11-18_20-34-47/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-1-dense-1574109401/events.out.tfevents.1574109406.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-1-dense-1574109401/events.out.tfevents.1574109412.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-1-dense-1574109401/plugins/profile/2019-11-18_20-36-52/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-2-dense-1574109624/events.out.tfevents.1574109632.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-2-dense-1574109624/events.out.tfevents.1574109644.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-2-dense-1574109624/plugins/profile/2019-11-18_20-40-44/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-0-dense-1574109305/events.out.tfevents.1574109307.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-0-dense-1574109305/events.out.tfevents.1574109311.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-0-dense-1574109305/plugins/profile/2019-11-18_20-35-11/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-1-dense-1574109446/events.out.tfevents.1574109452.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-1-dense-1574109446/events.out.tfevents.1574109460.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-1-dense-1574109446/plugins/profile/2019-11-18_20-37-40/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-2-dense-1574109697/events.out.tfevents.1574109706.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-2-dense-1574109697/events.out.tfevents.1574109720.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-2-dense-1574109697/plugins/profile/2019-11-18_20-42-00/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-0-dense-1574109256/events.out.tfevents.1574109256.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-0-dense-1574109256/events.out.tfevents.1574109260.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-0-dense-1574109256/plugins/profile/2019-11-18_20-34-20/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-1-dense-1574109337/events.out.tfevents.1574109339.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-1-dense-1574109337/events.out.tfevents.1574109343.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-1-dense-1574109337/plugins/profile/2019-11-18_20-35-43/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-2-dense-1574109506/events.out.tfevents.1574109513.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-2-dense-1574109506/events.out.tfevents.1574109521.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-2-dense-1574109506/plugins/profile/2019-11-18_20-38-41/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-0-dense-1574109269/events.out.tfevents.1574109270.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-0-dense-1574109269/events.out.tfevents.1574109271.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-0-dense-1574109269/plugins/profile/2019-11-18_20-34-31/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-1-dense-1574109365/events.out.tfevents.1574109369.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-1-dense-1574109365/events.out.tfevents.1574109374.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-1-dense-1574109365/plugins/profile/2019-11-18_20-36-14/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-2-dense-1574109561/events.out.tfevents.1574109568.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-2-dense-1574109561/events.out.tfevents.1574109578.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-2-dense-1574109561/plugins/profile/2019-11-18_20-39-38/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-0-dense-1574109290/events.out.tfevents.1574109292.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-0-dense-1574109290/events.out.tfevents.1574109294.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-0-dense-1574109290/plugins/profile/2019-11-18_20-34-54/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-1-dense-1574109416/events.out.tfevents.1574109420.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-1-dense-1574109416/events.out.tfevents.1574109427.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-1-dense-1574109416/plugins/profile/2019-11-18_20-37-07/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-2-dense-1574109648/events.out.tfevents.1574109656.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-2-dense-1574109648/events.out.tfevents.1574109668.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-2-dense-1574109648/plugins/profile/2019-11-18_20-41-08/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-0-dense-1574109314/events.out.tfevents.1574109316.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-0-dense-1574109314/events.out.tfevents.1574109320.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-0-dense-1574109314/plugins/profile/2019-11-18_20-35-20/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-1-dense-1574109466/events.out.tfevents.1574109472.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-1-dense-1574109466/events.out.tfevents.1574109480.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-1-dense-1574109466/plugins/profile/2019-11-18_20-38-00/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-2-dense-1574109727/events.out.tfevents.1574109736.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-2-dense-1574109727/events.out.tfevents.1574109750.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-2-dense-1574109727/plugins/profile/2019-11-18_20-42-30/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-0-dense-1574109262/events.out.tfevents.1574109263.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-0-dense-1574109262/events.out.tfevents.1574109263.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-0-dense-1574109262/plugins/profile/2019-11-18_20-34-23/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-1-dense-1574109345/events.out.tfevents.1574109348.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-1-dense-1574109345/events.out.tfevents.1574109353.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-1-dense-1574109345/plugins/profile/2019-11-18_20-35-53/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-2-dense-1574109524/events.out.tfevents.1574109530.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-2-dense-1574109524/events.out.tfevents.1574109539.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-2-dense-1574109524/plugins/profile/2019-11-18_20-38-59/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-0-dense-1574109273/events.out.tfevents.1574109274.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-0-dense-1574109273/events.out.tfevents.1574109276.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-0-dense-1574109273/plugins/profile/2019-11-18_20-34-36/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-1-dense-1574109376/events.out.tfevents.1574109380.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-1-dense-1574109376/events.out.tfevents.1574109386.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-1-dense-1574109376/plugins/profile/2019-11-18_20-36-26/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-2-dense-1574109581/events.out.tfevents.1574109589.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-2-dense-1574109581/events.out.tfevents.1574109599.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-2-dense-1574109581/plugins/profile/2019-11-18_20-39-59/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-0-dense-1574109297/events.out.tfevents.1574109299.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-0-dense-1574109297/events.out.tfevents.1574109302.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-0-dense-1574109297/plugins/profile/2019-11-18_20-35-02/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-1-dense-1574109430/events.out.tfevents.1574109436.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-1-dense-1574109430/events.out.tfevents.1574109443.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-1-dense-1574109430/plugins/profile/2019-11-18_20-37-23/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-2-dense-1574109672/events.out.tfevents.1574109681.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-2-dense-1574109672/events.out.tfevents.1574109693.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-2-dense-1574109672/plugins/profile/2019-11-18_20-41-33/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-0-dense-1574109325/events.out.tfevents.1574109327.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-0-dense-1574109325/events.out.tfevents.1574109331.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-0-dense-1574109325/plugins/profile/2019-11-18_20-35-31/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-1-dense-1574109486/events.out.tfevents.1574109492.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-1-dense-1574109486/events.out.tfevents.1574109500.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-1-dense-1574109486/plugins/profile/2019-11-18_20-38-20/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-2-dense-1574109756/events.out.tfevents.1574109766.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-2-dense-1574109756/events.out.tfevents.1574109780.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-2-dense-1574109756/plugins/profile/2019-11-18_20-43-00/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-0-dense-1574109265/events.out.tfevents.1574109266.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-0-dense-1574109265/events.out.tfevents.1574109267.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-0-dense-1574109265/plugins/profile/2019-11-18_20-34-27/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-1-dense-1574109355/events.out.tfevents.1574109358.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-1-dense-1574109355/events.out.tfevents.1574109363.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-1-dense-1574109355/plugins/profile/2019-11-18_20-36-03/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-2-dense-1574109542/events.out.tfevents.1574109549.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-2-dense-1574109542/events.out.tfevents.1574109558.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-2-dense-1574109542/plugins/profile/2019-11-18_20-39-18/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-0-dense-1574109278/events.out.tfevents.1574109280.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-0-dense-1574109278/events.out.tfevents.1574109281.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-0-dense-1574109278/plugins/profile/2019-11-18_20-34-41/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-1-dense-1574109388/events.out.tfevents.1574109393.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-1-dense-1574109388/events.out.tfevents.1574109399.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-1-dense-1574109388/plugins/profile/2019-11-18_20-36-39/local.trace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-2-dense-1574109602/events.out.tfevents.1574109610.DESKTOP-P0SFHM2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-2-dense-1574109602/events.out.tfevents.1574109621.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-2-dense-1574109602/plugins/profile/2019-11-18_20-40-21/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/ChoppedImages/1574369010--0,0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/ChoppedImages/1574369010--0,1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/ChoppedImages/1574369010--0,2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/ChoppedImages/1574369010--1,0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/ChoppedImages/1574369010--1,1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/ChoppedImages/1574369010--1,2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/ChoppedImages/1574369010--2,0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/ChoppedImages/1574369010--2,1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/ChoppedImages/1574369010--2,2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/Satellite/RawImages/1574368998.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-0-dense-20-Epochs-1574113172/events.out.tfevents.1574113174.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-0-dense-20-Epochs-1574113172/events.out.tfevents.1574113176.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-0-dense-20-Epochs-1574113172/plugins/profile/2019-11-18_21-39-36/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-1-dense-20-Epochs-1574113391/events.out.tfevents.1574113395.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-1-dense-20-Epochs-1574113391/events.out.tfevents.1574113401.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-1-dense-20-Epochs-1574113391/plugins/profile/2019-11-18_21-43-21/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-2-dense-20-Epochs-1574113744/events.out.tfevents.1574113753.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-2-dense-20-Epochs-1574113744/events.out.tfevents.1574113765.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-2-dense-20-Epochs-1574113744/plugins/profile/2019-11-18_21-49-25/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-0-dense-20-Epochs-1574113219/events.out.tfevents.1574113221.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-0-dense-20-Epochs-1574113219/events.out.tfevents.1574113224.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-0-dense-20-Epochs-1574113219/plugins/profile/2019-11-18_21-40-24/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-1-dense-20-Epochs-1574113466/events.out.tfevents.1574113471.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-1-dense-20-Epochs-1574113466/events.out.tfevents.1574113479.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-1-dense-20-Epochs-1574113466/plugins/profile/2019-11-18_21-44-39/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-2-dense-20-Epochs-1574113851/events.out.tfevents.1574113860.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-2-dense-20-Epochs-1574113851/events.out.tfevents.1574113874.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-2-dense-20-Epochs-1574113851/plugins/profile/2019-11-18_21-51-14/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-0-dense-20-Epochs-1574113115/events.out.tfevents.1574113115.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-0-dense-20-Epochs-1574113115/events.out.tfevents.1574113118.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-0-dense-20-Epochs-1574113115/plugins/profile/2019-11-18_21-38-38/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-1-dense-20-Epochs-1574113290/events.out.tfevents.1574113293.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-1-dense-20-Epochs-1574113290/events.out.tfevents.1574113297.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-1-dense-20-Epochs-1574113290/plugins/profile/2019-11-18_21-41-37/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-2-dense-20-Epochs-1574113584/events.out.tfevents.1574113590.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-2-dense-20-Epochs-1574113584/events.out.tfevents.1574113599.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-2-dense-20-Epochs-1574113584/plugins/profile/2019-11-18_21-46-39/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-0-dense-20-Epochs-1574113140/events.out.tfevents.1574113142.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-0-dense-20-Epochs-1574113140/events.out.tfevents.1574113143.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-0-dense-20-Epochs-1574113140/plugins/profile/2019-11-18_21-39-03/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-1-dense-20-Epochs-1574113335/events.out.tfevents.1574113338.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-1-dense-20-Epochs-1574113335/events.out.tfevents.1574113343.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-1-dense-20-Epochs-1574113335/plugins/profile/2019-11-18_21-42-23/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-2-dense-20-Epochs-1574113658/events.out.tfevents.1574113665.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-2-dense-20-Epochs-1574113658/events.out.tfevents.1574113675.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-2-dense-20-Epochs-1574113658/plugins/profile/2019-11-18_21-47-55/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-0-dense-20-Epochs-1574113185/events.out.tfevents.1574113187.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-0-dense-20-Epochs-1574113185/events.out.tfevents.1574113190.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-0-dense-20-Epochs-1574113185/plugins/profile/2019-11-18_21-39-50/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-1-dense-20-Epochs-1574113414/events.out.tfevents.1574113419.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-1-dense-20-Epochs-1574113414/events.out.tfevents.1574113426.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-1-dense-20-Epochs-1574113414/plugins/profile/2019-11-18_21-43-46/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-2-dense-20-Epochs-1574113779/events.out.tfevents.1574113788.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-2-dense-20-Epochs-1574113779/events.out.tfevents.1574113800.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-2-dense-20-Epochs-1574113779/plugins/profile/2019-11-18_21-50-00/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-0-dense-20-Epochs-1574113237/events.out.tfevents.1574113240.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-0-dense-20-Epochs-1574113237/events.out.tfevents.1574113243.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-0-dense-20-Epochs-1574113237/plugins/profile/2019-11-18_21-40-43/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-1-dense-20-Epochs-1574113507/events.out.tfevents.1574113513.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-1-dense-20-Epochs-1574113507/events.out.tfevents.1574113521.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-1-dense-20-Epochs-1574113507/plugins/profile/2019-11-18_21-45-21/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-2-dense-20-Epochs-1574113903/events.out.tfevents.1574113913.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-2-dense-20-Epochs-1574113903/events.out.tfevents.1574113927.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-2-dense-20-Epochs-1574113903/plugins/profile/2019-11-18_21-52-07/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-0-dense-20-Epochs-1574113124/events.out.tfevents.1574113124.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-0-dense-20-Epochs-1574113124/events.out.tfevents.1574113125.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-0-dense-20-Epochs-1574113124/plugins/profile/2019-11-18_21-38-45/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-1-dense-20-Epochs-1574113304/events.out.tfevents.1574113307.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-1-dense-20-Epochs-1574113304/events.out.tfevents.1574113311.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-1-dense-20-Epochs-1574113304/plugins/profile/2019-11-18_21-41-51/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-2-dense-20-Epochs-1574113607/events.out.tfevents.1574113614.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-2-dense-20-Epochs-1574113607/events.out.tfevents.1574113623.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-2-dense-20-Epochs-1574113607/plugins/profile/2019-11-18_21-47-03/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-0-dense-20-Epochs-1574113150/events.out.tfevents.1574113151.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-0-dense-20-Epochs-1574113150/events.out.tfevents.1574113153.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-0-dense-20-Epochs-1574113150/plugins/profile/2019-11-18_21-39-13/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-1-dense-20-Epochs-1574113352/events.out.tfevents.1574113356.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-1-dense-20-Epochs-1574113352/events.out.tfevents.1574113361.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-1-dense-20-Epochs-1574113352/plugins/profile/2019-11-18_21-42-41/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-2-dense-20-Epochs-1574113685/events.out.tfevents.1574113693.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-2-dense-20-Epochs-1574113685/events.out.tfevents.1574113704.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-2-dense-20-Epochs-1574113685/plugins/profile/2019-11-18_21-48-24/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-0-dense-20-Epochs-1574113201/events.out.tfevents.1574113203.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-0-dense-20-Epochs-1574113201/events.out.tfevents.1574113206.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-0-dense-20-Epochs-1574113201/plugins/profile/2019-11-18_21-40-06/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-1-dense-20-Epochs-1574113439/events.out.tfevents.1574113444.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-1-dense-20-Epochs-1574113439/events.out.tfevents.1574113452.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-1-dense-20-Epochs-1574113439/plugins/profile/2019-11-18_21-44-12/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-2-dense-20-Epochs-1574113814/events.out.tfevents.1574113823.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-2-dense-20-Epochs-1574113814/events.out.tfevents.1574113836.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-2-dense-20-Epochs-1574113814/plugins/profile/2019-11-18_21-50-36/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-0-dense-20-Epochs-1574113262/events.out.tfevents.1574113265.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-0-dense-20-Epochs-1574113262/events.out.tfevents.1574113269.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-0-dense-20-Epochs-1574113262/plugins/profile/2019-11-18_21-41-09/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-1-dense-20-Epochs-1574113545/events.out.tfevents.1574113552.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-1-dense-20-Epochs-1574113545/events.out.tfevents.1574113560.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-1-dense-20-Epochs-1574113545/plugins/profile/2019-11-18_21-46-00/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-2-dense-20-Epochs-1574113951/events.out.tfevents.1574113961.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-2-dense-20-Epochs-1574113951/events.out.tfevents.1574113975.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-2-dense-20-Epochs-1574113951/plugins/profile/2019-11-18_21-52-55/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-0-dense-20-Epochs-1574113131/events.out.tfevents.1574113132.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-0-dense-20-Epochs-1574113131/events.out.tfevents.1574113134.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-0-dense-20-Epochs-1574113131/plugins/profile/2019-11-18_21-38-54/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-1-dense-20-Epochs-1574113318/events.out.tfevents.1574113322.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-1-dense-20-Epochs-1574113318/events.out.tfevents.1574113327.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-1-dense-20-Epochs-1574113318/plugins/profile/2019-11-18_21-42-07/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-2-dense-20-Epochs-1574113632/events.out.tfevents.1574113639.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-2-dense-20-Epochs-1574113632/events.out.tfevents.1574113649.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-2-dense-20-Epochs-1574113632/plugins/profile/2019-11-18_21-47-29/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-0-dense-20-Epochs-1574113161/events.out.tfevents.1574113162.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-0-dense-20-Epochs-1574113161/events.out.tfevents.1574113164.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-0-dense-20-Epochs-1574113161/plugins/profile/2019-11-18_21-39-24/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-1-dense-20-Epochs-1574113370/events.out.tfevents.1574113375.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-1-dense-20-Epochs-1574113370/events.out.tfevents.1574113381.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-1-dense-20-Epochs-1574113370/plugins/profile/2019-11-18_21-43-01/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-2-dense-20-Epochs-1574113714/events.out.tfevents.1574113723.DESKTOP-P0SFHM2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-2-dense-20-Epochs-1574113714/events.out.tfevents.1574113734.DESKTOP-P0SFHM2.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-2-dense-20-Epochs-1574113714/plugins/profile/2019-11-18_21-48-54/local.trace" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/Satellite/RawImages/1574103563.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/ImageSlicer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/ImageSlicer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Satellite/SatelliteConvNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/SatelliteConvNet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-0-dense-1574109284/events.out.tfevents.1574109285.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-0-dense-1574109284/events.out.tfevents.1574109287.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-0-dense-1574109284/plugins/profile/2019-11-18_20-34-47/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-1-dense-1574109401/events.out.tfevents.1574109406.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-1-dense-1574109401/events.out.tfevents.1574109412.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-1-dense-1574109401/plugins/profile/2019-11-18_20-36-52/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-2-dense-1574109624/events.out.tfevents.1574109632.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-2-dense-1574109624/events.out.tfevents.1574109644.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-128-nodes-2-dense-1574109624/plugins/profile/2019-11-18_20-40-44/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-0-dense-1574109305/events.out.tfevents.1574109307.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-0-dense-1574109305/events.out.tfevents.1574109311.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-0-dense-1574109305/plugins/profile/2019-11-18_20-35-11/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-1-dense-1574109446/events.out.tfevents.1574109452.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-1-dense-1574109446/events.out.tfevents.1574109460.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-1-dense-1574109446/plugins/profile/2019-11-18_20-37-40/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-2-dense-1574109697/events.out.tfevents.1574109706.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-2-dense-1574109697/events.out.tfevents.1574109720.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-256-nodes-2-dense-1574109697/plugins/profile/2019-11-18_20-42-00/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-0-dense-1574109256/events.out.tfevents.1574109256.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-0-dense-1574109256/events.out.tfevents.1574109260.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-0-dense-1574109256/plugins/profile/2019-11-18_20-34-20/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-1-dense-1574109337/events.out.tfevents.1574109339.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-1-dense-1574109337/events.out.tfevents.1574109343.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-1-dense-1574109337/plugins/profile/2019-11-18_20-35-43/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-2-dense-1574109506/events.out.tfevents.1574109513.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-2-dense-1574109506/events.out.tfevents.1574109521.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-32-nodes-2-dense-1574109506/plugins/profile/2019-11-18_20-38-41/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-0-dense-1574109269/events.out.tfevents.1574109270.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-0-dense-1574109269/events.out.tfevents.1574109271.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-0-dense-1574109269/plugins/profile/2019-11-18_20-34-31/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-1-dense-1574109365/events.out.tfevents.1574109369.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-1-dense-1574109365/events.out.tfevents.1574109374.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-1-dense-1574109365/plugins/profile/2019-11-18_20-36-14/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-2-dense-1574109561/events.out.tfevents.1574109568.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-2-dense-1574109561/events.out.tfevents.1574109578.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-1-conv-64-nodes-2-dense-1574109561/plugins/profile/2019-11-18_20-39-38/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-0-dense-1574109290/events.out.tfevents.1574109292.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-0-dense-1574109290/events.out.tfevents.1574109294.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-0-dense-1574109290/plugins/profile/2019-11-18_20-34-54/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-1-dense-1574109416/events.out.tfevents.1574109420.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-1-dense-1574109416/events.out.tfevents.1574109427.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-1-dense-1574109416/plugins/profile/2019-11-18_20-37-07/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-2-dense-1574109648/events.out.tfevents.1574109656.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-2-dense-1574109648/events.out.tfevents.1574109668.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-128-nodes-2-dense-1574109648/plugins/profile/2019-11-18_20-41-08/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-0-dense-1574109314/events.out.tfevents.1574109316.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-0-dense-1574109314/events.out.tfevents.1574109320.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-0-dense-1574109314/plugins/profile/2019-11-18_20-35-20/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-1-dense-1574109466/events.out.tfevents.1574109472.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-1-dense-1574109466/events.out.tfevents.1574109480.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-1-dense-1574109466/plugins/profile/2019-11-18_20-38-00/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-2-dense-1574109727/events.out.tfevents.1574109736.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-2-dense-1574109727/events.out.tfevents.1574109750.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-256-nodes-2-dense-1574109727/plugins/profile/2019-11-18_20-42-30/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-0-dense-1574109262/events.out.tfevents.1574109263.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-0-dense-1574109262/events.out.tfevents.1574109263.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-0-dense-1574109262/plugins/profile/2019-11-18_20-34-23/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-1-dense-1574109345/events.out.tfevents.1574109348.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-1-dense-1574109345/events.out.tfevents.1574109353.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-1-dense-1574109345/plugins/profile/2019-11-18_20-35-53/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-2-dense-1574109524/events.out.tfevents.1574109530.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-2-dense-1574109524/events.out.tfevents.1574109539.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-32-nodes-2-dense-1574109524/plugins/profile/2019-11-18_20-38-59/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-0-dense-1574109273/events.out.tfevents.1574109274.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-0-dense-1574109273/events.out.tfevents.1574109276.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-0-dense-1574109273/plugins/profile/2019-11-18_20-34-36/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-1-dense-1574109376/events.out.tfevents.1574109380.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-1-dense-1574109376/events.out.tfevents.1574109386.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-1-dense-1574109376/plugins/profile/2019-11-18_20-36-26/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-2-dense-1574109581/events.out.tfevents.1574109589.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-2-dense-1574109581/events.out.tfevents.1574109599.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-2-conv-64-nodes-2-dense-1574109581/plugins/profile/2019-11-18_20-39-59/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-0-dense-1574109297/events.out.tfevents.1574109299.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-0-dense-1574109297/events.out.tfevents.1574109302.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-0-dense-1574109297/plugins/profile/2019-11-18_20-35-02/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-1-dense-1574109430/events.out.tfevents.1574109436.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-1-dense-1574109430/events.out.tfevents.1574109443.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-1-dense-1574109430/plugins/profile/2019-11-18_20-37-23/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-2-dense-1574109672/events.out.tfevents.1574109681.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-2-dense-1574109672/events.out.tfevents.1574109693.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-128-nodes-2-dense-1574109672/plugins/profile/2019-11-18_20-41-33/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-0-dense-1574109325/events.out.tfevents.1574109327.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-0-dense-1574109325/events.out.tfevents.1574109331.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-0-dense-1574109325/plugins/profile/2019-11-18_20-35-31/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-1-dense-1574109486/events.out.tfevents.1574109492.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-1-dense-1574109486/events.out.tfevents.1574109500.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-1-dense-1574109486/plugins/profile/2019-11-18_20-38-20/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-2-dense-1574109756/events.out.tfevents.1574109766.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-2-dense-1574109756/events.out.tfevents.1574109780.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-256-nodes-2-dense-1574109756/plugins/profile/2019-11-18_20-43-00/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-0-dense-1574109265/events.out.tfevents.1574109266.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-0-dense-1574109265/events.out.tfevents.1574109267.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-0-dense-1574109265/plugins/profile/2019-11-18_20-34-27/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-1-dense-1574109355/events.out.tfevents.1574109358.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-1-dense-1574109355/events.out.tfevents.1574109363.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-1-dense-1574109355/plugins/profile/2019-11-18_20-36-03/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-2-dense-1574109542/events.out.tfevents.1574109549.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-2-dense-1574109542/events.out.tfevents.1574109558.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-32-nodes-2-dense-1574109542/plugins/profile/2019-11-18_20-39-18/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-0-dense-1574109278/events.out.tfevents.1574109280.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-0-dense-1574109278/events.out.tfevents.1574109281.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-0-dense-1574109278/plugins/profile/2019-11-18_20-34-41/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-1-dense-1574109388/events.out.tfevents.1574109393.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-1-dense-1574109388/events.out.tfevents.1574109399.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-1-dense-1574109388/plugins/profile/2019-11-18_20-36-39/local.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-2-dense-1574109602/events.out.tfevents.1574109610.DESKTOP-P0SFHM2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-2-dense-1574109602/events.out.tfevents.1574109621.DESKTOP-P0SFHM2.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/logs/Satellite-3-conv-64-nodes-2-dense-1574109602/plugins/profile/2019-11-18_20-40-21/local.trace" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SatelliteConvNet">
+  <component name="RunManager" selected="Python.ImageSlicer">
     <configuration name="CatDogConvNetTester" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AT-Task2-Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,6 +346,9 @@
       <module name="AT-Task2-Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Satellite" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -245,6 +368,9 @@
       <module name="AT-Task2-Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Satellite" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -284,10 +410,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SatelliteConvNet" />
-        <item itemvalue="Python.SatelliteDatasetCreator" />
         <item itemvalue="Python.ImageSlicer" />
         <item itemvalue="Python.MapQuestImageFetcher" />
+        <item itemvalue="Python.SatelliteConvNet" />
+        <item itemvalue="Python.SatelliteDatasetCreator" />
         <item itemvalue="Python.CatDogConvNetTester" />
       </list>
     </recent_temporary>
@@ -309,7 +435,9 @@
       <workItem from="1573737579256" duration="11556000" />
       <workItem from="1574073933487" duration="146000" />
       <workItem from="1574074094629" duration="14145000" />
-      <workItem from="1574101386509" duration="10548000" />
+      <workItem from="1574101386509" duration="10584000" />
+      <workItem from="1574112955218" duration="978000" />
+      <workItem from="1574367591686" duration="1557000" />
     </task>
     <servers />
   </component>

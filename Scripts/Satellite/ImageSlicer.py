@@ -11,10 +11,10 @@ START_FILEPATH = "D:\Alex\Documents\ProjectsAndWork\PyCharm\AT-Task2-Tensorflow\
 END_FILEPATH = "D:\Alex\Documents\ProjectsAndWork\PyCharm\AT-Task2-Tensorflow\Dataset\Satellite\ChoppedImages"
 
 
-START_FILEPATH = input("Please input path pictures are found in: ")
-END_FILEPATH = input("Please input path to put split images: ")
-SLICE_X = input("Please input the width of each split image in pixels: ")
-SLICE_Y = input("Please input the height of each split image in pixels: ")
+# START_FILEPATH = input("Please input path pictures are found in: ")
+# END_FILEPATH = input("Please input path to put split images: ")
+# SLICE_X = input("Please input the width of each split image in pixels: ")
+# SLICE_Y = input("Please input the height of each split image in pixels: ")
 
 SLICE_X = int(SLICE_X)
 SLICE_Y = int(SLICE_Y)

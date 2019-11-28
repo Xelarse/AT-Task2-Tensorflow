@@ -106,3 +106,7 @@ venv.bak/
 # Exclude datasets and logs from git
 Dataset/CatsVDogs
 Scripts/CatsAndDogs/logs
+Dataset/Satellite/ChoppedImages
+Dataset/Satellite/RawImages
+Dataset/Satellite/Sorted
+Scripts/Satellite/logs
