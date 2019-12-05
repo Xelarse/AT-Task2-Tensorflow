@@ -15,7 +15,7 @@ import time
 
 LONG = [-4.6, 1.2]
 LAT = [50.6, 54.6]
-MAP_SIZE = 200      # width and height
+MAP_SIZE = 1000      # width and height
 MAP_TYPE = "sat"  # Map = map, Satellite = sat, Hybrid = hyb
 IMG_TYPE = "png"    # jpg or png
 ZOOM_LEVEL = 17     # 1 - 18

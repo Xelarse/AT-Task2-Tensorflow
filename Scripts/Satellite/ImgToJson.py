@@ -16,7 +16,7 @@ IMG_SIZE = 50
 
 # First take an image from the specified file path and a model to use for prediction
 
-img_path = "D:\\Alex\\Documents\\ProjectsAndWork\\PyCharm\\AT-Task2-Tensorflow\\Dataset\\Satellite\\RawImages\\1574957771.png" # input("Please enter file path to Img: ")
+img_path = "D:\\Alex\\Documents\\ProjectsAndWork\\PyCharm\\AT-Task2-Tensorflow\\Dataset\\Satellite\\RawImages\\1575543215.png" # input("Please enter file path to Img: ")
 model_path = "D:\\Alex\\Documents\\ProjectsAndWork\\PyCharm\\AT-Task2-Tensorflow\\Scripts\\Satellite\\models\\Satellite-2-conv-128-nodes-1-dense-20-epochs.h5" #input("Please enter file path to Model: ")
 
 full_img = cv2.imread(img_path, cv2.IMREAD_COLOR)
