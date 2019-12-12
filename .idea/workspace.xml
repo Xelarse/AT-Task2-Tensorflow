@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2d9293f-967d-4b2c-a422-fd868de12ded" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/JSONs/1574957771.png-jsonFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/JSONs/1575543215.png-jsonFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-2-conv-128-nodes-1-dense-20-epochs-oldBest.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-2-conv-128-nodes-1-dense-256-dense_size-7-kernel_size-100-Epochs.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-2-conv-128-nodes-1-dense-512-dense_size-7-kernel_size-100-Epochs.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Satellite/ImgToJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/ImgToJson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/MapQuestImageFetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/MapQuestImageFetcher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/JSONs/1574957771.png-jsonFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/JSONs/1575543215.png-jsonFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/JSONs/1575543215.png-jsonFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/SatelliteConvNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/SatelliteConvNet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-2-conv-128-nodes-1-dense-20-epochs.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-3-conv-128-nodes-1-dense-40-epochs.h5" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,9 +88,6 @@
       <module name="AT-Task2-Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Satellite" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -128,9 +129,6 @@
       <module name="AT-Task2-Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Satellite" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -193,8 +191,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.ImgToJson" />
-        <item itemvalue="Python.MapQuestImageFetcher" />
         <item itemvalue="Python.SatelliteConvNet" />
+        <item itemvalue="Python.MapQuestImageFetcher" />
         <item itemvalue="Python.SatelliteDatasetCreator" />
         <item itemvalue="Python.ImageSlicer" />
       </list>
@@ -225,6 +223,10 @@
       <workItem from="1574969128720" duration="4206000" />
       <workItem from="1575543049283" duration="214000" />
       <workItem from="1575544042936" duration="1647000" />
+      <workItem from="1576149049771" duration="1633000" />
+      <workItem from="1576152085712" duration="17000" />
+      <workItem from="1576154488908" duration="6466000" />
+      <workItem from="1576165902659" duration="6141000" />
     </task>
     <servers />
   </component>
