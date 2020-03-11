@@ -8,7 +8,7 @@ import time
 import os
 
 
-export_model = True
+export_model = False
 dense_layers = [1]
 dense_sizes = [256, 512]
 layer_sizes = [64, 128]

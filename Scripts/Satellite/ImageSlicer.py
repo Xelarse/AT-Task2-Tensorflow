@@ -5,8 +5,8 @@ import os
 import math
 import time
 
-SLICE_X = 50
-SLICE_Y = 50
+SLICE_X = 100
+SLICE_Y = 100
 START_FILEPATH = "D:\Alex\Documents\ProjectsAndWork\PyCharm\AT-Task2-Tensorflow\Dataset\Satellite\RawImages"
 END_FILEPATH = "D:\Alex\Documents\ProjectsAndWork\PyCharm\AT-Task2-Tensorflow\Dataset\Satellite\ChoppedImages"
 

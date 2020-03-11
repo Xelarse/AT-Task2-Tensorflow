@@ -19,7 +19,7 @@ MAP_SIZE = 1000      # width and height
 MAP_TYPE = "sat"  # Map = map, Satellite = sat, Hybrid = hyb
 IMG_TYPE = "png"    # jpg or png
 ZOOM_LEVEL = 17     # 1 - 18
-IMG_AMOUNT = 10
+IMG_AMOUNT = 20
 
 
 def fetch_random_image_from_mapquest():
