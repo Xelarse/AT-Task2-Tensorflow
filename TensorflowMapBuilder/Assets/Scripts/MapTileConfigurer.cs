@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class MapTileConfigurer : MonoBehaviour
 {
+    public enum Tile
+    {
+        CITY_BUILDING,
+        ROAD,
+        VILLAGE_BUILDING
+    }
+
+    //Tile type
+    public Tile _tileType;
+
     //Single
     [SerializeField] private GameObject SINGLE;
 
