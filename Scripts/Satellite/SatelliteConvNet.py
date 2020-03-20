@@ -8,22 +8,25 @@ import time
 import os
 
 
-export_model = False
+export_model = True
 dense_layers = [1]
 dense_sizes = [256, 512]
-layer_sizes = [64, 128]
+layer_sizes = [64, 128, 256]
 conv_layers = [2]
 kern_sizes = [7]
-model_runs = [150, 200, 300]
+model_runs = [200, 300, 500, 1000]
 
 pathToScript = os.getcwd()
 
+# cd to log directory
+# !tensorboard --logdir ./
+
 # Load in data from previously made dataset
-X = np.load("D:\\Alex\\Documents\\ProjectsAndWork\\PyCharm\\AT-Task2-Tensorflow\\Dataset\\Satellite\\ExportedTrainingData\\SatelliteFeatures.npy")
-y = np.load("D:\\Alex\\Documents\\ProjectsAndWork\\PyCharm\\AT-Task2-Tensorflow\\Dataset\\Satellite\\ExportedTrainingData\\SatelliteLabels.npy")
+X = np.load("D:\\Alex\\Documents\\ProjectsAndWork\\ThirdYear\\AT-Task2-Tensorflow\\Dataset\\Satellite\\ExportedTrainingData\\SatelliteFeatures.npy")
+y = np.load("D:\\Alex\\Documents\\ProjectsAndWork\\ThirdYear\\AT-Task2-Tensorflow\\Dataset\\Satellite\\ExportedTrainingData\\SatelliteLabels.npy")
 
 # Time to normalise the data! since pixel data is from 0 - 255 divide by 255
-X = X/255.0
+#X = X/255.0
 y = keras.utils.to_categorical(y, 8)
 # Make multiple models with each of the variations above
 

@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2d9293f-967d-4b2c-a422-fd868de12ded" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/JSONs/1578577957.png-jsonFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/JSONs/1583948826.png-jsonFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/JSONs/1583949126.png-jsonFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/JSONs/1583949296.png-jsonFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/JSONs/1583949335.png-jsonFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/JSONs/1584665492.png-jsonFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Old reliables/Satellite-2-conv-128-nodes-1-dense-256-dense_size-7-kernel_size-100-Epochs.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Old reliables/Satellite-2-conv-128-nodes-1-dense-512-dense_size-7-kernel_size-100-Epochs.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Library/ShaderCache/4/4e6486750b6c49578de075f3003aa6f8.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Library/ShaderCache/7/7d261b781cace6c8845f82dbf86df13e.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/ImageSlicer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/ImageSlicer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Satellite/ImgToJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/ImgToJson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/MapQuestImageFetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/MapQuestImageFetcher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Satellite/SatelliteConvNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/SatelliteConvNet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-2-conv-128-nodes-1-dense-20-epochs-oldBest.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-2-conv-128-nodes-1-dense-256-dense_size-7-kernel_size-100-Epochs.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-2-conv-128-nodes-1-dense-512-dense_size-7-kernel_size-100-Epochs.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorflowMapBuilder/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorflowMapBuilder/Library/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Library/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorflowMapBuilder/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorflowMapBuilder/Library/StateCache/SceneView/d3278b-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Library/StateCache/SceneView/d3278b-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorflowMapBuilder/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorflowMapBuilder/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/TensorflowMapBuilder/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +69,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.ImgToJson">
+    <configuration name="EnvironmentTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AT-Task2-Tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/EnvironmentTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ImageSlicer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AT-Task2-Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,6 +136,9 @@
       <module name="AT-Task2-Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Satellite" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -144,28 +176,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SatelliteDatasetCreator" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AT-Task2-Tensorflow" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Satellite" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/Satellite/SatelliteDatasetCreator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="AT-Task2-Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,10 +201,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.ImgToJson" />
-        <item itemvalue="Python.MapQuestImageFetcher" />
         <item itemvalue="Python.SatelliteConvNet" />
+        <item itemvalue="Python.MapQuestImageFetcher" />
+        <item itemvalue="Python.EnvironmentTest" />
         <item itemvalue="Python.ImageSlicer" />
-        <item itemvalue="Python.SatelliteDatasetCreator" />
       </list>
     </recent_temporary>
   </component>
@@ -232,6 +242,15 @@
       <workItem from="1583191829818" duration="358000" />
       <workItem from="1583684986705" duration="2000" />
       <workItem from="1583948694767" duration="771000" />
+      <workItem from="1584621557770" duration="11000" />
+      <workItem from="1584622011853" duration="18000" />
+      <workItem from="1584622175171" duration="1363000" />
+      <workItem from="1584630161140" duration="79000" />
+      <workItem from="1584630281926" duration="63000" />
+      <workItem from="1584630355551" duration="3000" />
+      <workItem from="1584630384553" duration="11000" />
+      <workItem from="1584664114699" duration="3204000" />
+      <workItem from="1584667920517" duration="350000" />
     </task>
     <servers />
   </component>
