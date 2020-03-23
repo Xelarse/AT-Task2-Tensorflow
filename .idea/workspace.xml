@@ -2,23 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2d9293f-967d-4b2c-a422-fd868de12ded" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/JSONs/1584665492.png-jsonFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Old reliables/Satellite-2-conv-128-nodes-1-dense-256-dense_size-7-kernel_size-100-Epochs.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Old reliables/Satellite-2-conv-128-nodes-1-dense-512-dense_size-7-kernel_size-100-Epochs.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Library/ShaderCache/4/4e6486750b6c49578de075f3003aa6f8.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Library/ShaderCache/7/7d261b781cace6c8845f82dbf86df13e.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/JSONs/1584665474.png-jsonFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Best of the new set/Satellite-2-conv-128-nodes-1-dense-256-dense_size-7-kernel_size-1000-Epochs.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Best of the new set/Satellite-2-conv-128-nodes-1-dense-256-dense_size-7-kernel_size-300-Epochs.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Best of the new set/Satellite-2-conv-128-nodes-1-dense-256-dense_size-7-kernel_size-500-Epochs.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Best of the new set/Satellite-2-conv-128-nodes-1-dense-512-dense_size-7-kernel_size-1000-Epochs.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Best of the new set/Satellite-2-conv-256-nodes-1-dense-256-dense_size-7-kernel_size-1000-Epochs.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-2-conv-256-nodes-1-dense-512-dense_size-7-kernel_size-1000-Epochs.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-2-conv-256-nodes-1-dense-512-dense_size-7-kernel_size-200-Epochs.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-2-conv-256-nodes-1-dense-512-dense_size-7-kernel_size-300-Epochs.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-2-conv-256-nodes-1-dense-512-dense_size-7-kernel_size-500-Epochs.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Satellite/ImgToJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/ImgToJson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/SatelliteConvNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/SatelliteConvNet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-2-conv-128-nodes-1-dense-20-epochs-oldBest.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-2-conv-128-nodes-1-dense-256-dense_size-7-kernel_size-100-Epochs.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/models/Satellite-2-conv-128-nodes-1-dense-512-dense_size-7-kernel_size-100-Epochs.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Satellite/JSONs/1584665492.png-jsonFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Satellite/JSONs/1584665492.png-jsonFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorflowMapBuilder/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TensorflowMapBuilder/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorflowMapBuilder/Library/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Library/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorflowMapBuilder/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorflowMapBuilder/Library/StateCache/Hierarchy/a546b5-220eb1f6c88452c48a.json" beforeDir="false" afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Library/StateCache/Hierarchy/a546b5-220eb1f6c88452c48a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorflowMapBuilder/Library/StateCache/Hierarchy/a546b5-e900398c52088774cb.json" beforeDir="false" afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Library/StateCache/Hierarchy/a546b5-e900398c52088774cb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorflowMapBuilder/Library/StateCache/SceneView/d3278b-220eb1f6c88452c48a.json" beforeDir="false" afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Library/StateCache/SceneView/d3278b-220eb1f6c88452c48a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorflowMapBuilder/Library/StateCache/SceneView/d3278b-e900398c52088774cb.json" beforeDir="false" afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Library/StateCache/SceneView/d3278b-e900398c52088774cb.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TensorflowMapBuilder/Library/StateCache/SceneView/d3278b-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Library/StateCache/SceneView/d3278b-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TensorflowMapBuilder/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/TensorflowMapBuilder/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorflowMapBuilder/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/TensorflowMapBuilder/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,9 +162,6 @@
       <module name="AT-Task2-Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Satellite" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -251,6 +252,7 @@
       <workItem from="1584630384553" duration="11000" />
       <workItem from="1584664114699" duration="3204000" />
       <workItem from="1584667920517" duration="350000" />
+      <workItem from="1584699090147" duration="6696000" />
     </task>
     <servers />
   </component>
